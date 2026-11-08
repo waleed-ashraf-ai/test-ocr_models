@@ -1,0 +1,165 @@
+{
+ "book": "الأنانية",
+ "source_pdf": "الأنانية.pdf",
+ "pdf_sha256_16": "94fe3f30fbd30137",
+ "page": 1,
+ "source": "ocr",
+ "ocr_engine": "gemini-3.6-flash",
+ "box_level": "word",
+ "render_size": [
+  1100,
+  1424
+ ],
+ "diac_ratio": 0.645,
+ "path": "keep",
+ "status": "spoken",
+ "tokens": [
+  {
+   "id": "p001w000",
+   "raw": "قيمي",
+   "txt": "قيمي",
+   "fixes": [],
+   "box": [
+    45.909,
+    8.076,
+    8.273,
+    4.284
+   ],
+   "t": [
+    0,
+    620
+   ],
+   "t_src": "interpolated"
+  },
+  {
+   "id": "p001w001",
+   "raw": "الأَنَانِيَّةُ",
+   "txt": "الأَنَانِيَّةُ",
+   "fixes": [],
+   "box": [
+    35.273,
+    13.272,
+    30.818,
+    12.289
+   ],
+   "t": [
+    620,
+    1500
+   ],
+   "t_src": "anchor"
+  },
+  {
+   "id": "p001w002",
+   "raw": "بِنَاءُ",
+   "txt": "بِنَاءُ",
+   "fixes": [],
+   "box": [
+    60.0,
+    25.983,
+    5.727,
+    4.003
+   ],
+   "t": [
+    1500,
+    2460
+   ],
+   "t_src": "anchor"
+  },
+  {
+   "id": "p001w003",
+   "raw": "شَخْصِيَتِك",
+   "txt": "شَخْصِيَتِك",
+   "fixes": [],
+   "box": [
+    47.545,
+    25.983,
+    12.273,
+    4.003
+   ],
+   "t": [
+    2460,
+    3460
+   ],
+   "t_src": "anchor"
+  },
+  {
+   "id": "p001w004",
+   "raw": "و",
+   "txt": "و",
+   "fixes": [],
+   "box": [
+    45.0,
+    27.037,
+    2.455,
+    2.598
+   ],
+   "t": [
+    3460,
+    3675
+   ],
+   "t_src": "interpolated"
+  },
+  {
+   "id": "p001w005",
+   "raw": "مُعْتَقَدَاتِك",
+   "txt": "مُعْتَقَدَاتِك",
+   "fixes": [],
+   "box": [
+    33.545,
+    25.983,
+    11.455,
+    4.003
+   ],
+   "t": [
+    3675,
+    5400
+   ],
+   "t_src": "interpolated"
+  }
+ ],
+ "tts": "gemini:gemini-3.1-flash-tts-preview",
+ "voice": "Kore",
+ "whisper_words": [
+  {
+   "text": "قيم",
+   "b": 0,
+   "e": 620
+  },
+  {
+   "text": "الأنانية",
+   "b": 620,
+   "e": 1500
+  },
+  {
+   "text": "بناء",
+   "b": 1500,
+   "e": 2460
+  },
+  {
+   "text": "شخصيتك",
+   "b": 2460,
+   "e": 3460
+  },
+  {
+   "text": "ومعتقداتك",
+   "b": 3460,
+   "e": 4980
+  }
+ ],
+ "align": "forced-whisper-small",
+ "duration_ms": 5400,
+ "audio": "audio/p001.wav",
+ "bind_report": {
+  "hume_timestamps": 5,
+  "hume_dropped_invalid": 0,
+  "tokens": 6,
+  "anchored": 3,
+  "interpolated": 3,
+  "untimed": 0,
+  "monotonic": true
+ },
+ "box_fit": {
+  "fitted": 6,
+  "total": 6
+ }
+}

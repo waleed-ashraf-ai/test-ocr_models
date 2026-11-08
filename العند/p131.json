@@ -1,0 +1,419 @@
+{
+ "book": "العند ",
+ "source_pdf": "العند .pdf",
+ "pdf_sha256_16": "3104050e2ea7e06d",
+ "page": 131,
+ "source": "ocr",
+ "ocr_engine": "gemini-3.6-flash",
+ "box_level": "word",
+ "render_size": [
+  794,
+  1134
+ ],
+ "diac_ratio": 0.0,
+ "path": "diacritise",
+ "status": "diacritised",
+ "tokens": [
+  {
+   "id": "p131w000",
+   "raw": "13-Speechlink.(2021):",
+   "txt": "13-Speechlink.(2021):",
+   "fixes": [],
+   "box": [
+    61.209,
+    8.466,
+    25.441,
+    2.116
+   ]
+  },
+  {
+   "id": "p131w001",
+   "raw": "your",
+   "txt": "your",
+   "fixes": [],
+   "box": [
+    51.385,
+    8.907,
+    7.053,
+    2.028
+   ]
+  },
+  {
+   "id": "p131w002",
+   "raw": "stubborn",
+   "txt": "stubborn",
+   "fixes": [],
+   "box": [
+    32.997,
+    8.377,
+    16.751,
+    2.557
+   ]
+  },
+  {
+   "id": "p131w003",
+   "raw": "child",
+   "txt": "child",
+   "fixes": [],
+   "box": [
+    22.544,
+    8.466,
+    10.705,
+    2.469
+   ]
+  },
+  {
+   "id": "p131w004",
+   "raw": "at",
+   "txt": "at",
+   "fixes": [],
+   "box": [
+    17.884,
+    8.554,
+    4.786,
+    2.028
+   ]
+  },
+  {
+   "id": "p131w005",
+   "raw": "different",
+   "txt": "different",
+   "fixes": [],
+   "box": [
+    40.05,
+    11.464,
+    14.358,
+    2.116
+   ]
+  },
+  {
+   "id": "p131w006",
+   "raw": "ages.",
+   "txt": "ages.",
+   "fixes": [],
+   "box": [
+    36.524,
+    11.905,
+    3.778,
+    2.028
+   ]
+  },
+  {
+   "id": "p131w007",
+   "raw": "speechlink.ca",
+   "txt": "speechlink.ca",
+   "fixes": [],
+   "box": [
+    13.476,
+    11.464,
+    20.907,
+    2.469
+   ]
+  },
+  {
+   "id": "p131w008",
+   "raw": "14-",
+   "txt": "14-",
+   "fixes": [],
+   "box": [
+    81.108,
+    14.727,
+    5.542,
+    1.94
+   ]
+  },
+  {
+   "id": "p131w009",
+   "raw": "Tara",
+   "txt": "Tara",
+   "fixes": [],
+   "box": [
+    67.128,
+    14.55,
+    12.72,
+    2.116
+   ]
+  },
+  {
+   "id": "p131w010",
+   "raw": "Van",
+   "txt": "Van",
+   "fixes": [],
+   "box": [
+    60.076,
+    14.638,
+    7.305,
+    2.381
+   ]
+  },
+  {
+   "id": "p131w011",
+   "raw": "Dyke.(2021):",
+   "txt": "Dyke.(2021):",
+   "fixes": [],
+   "box": [
+    40.05,
+    14.462,
+    18.64,
+    2.557
+   ]
+  },
+  {
+   "id": "p131w012",
+   "raw": "positive-words-to-",
+   "txt": "positive-words-to-",
+   "fixes": [],
+   "box": [
+    17.884,
+    14.638,
+    21.033,
+    2.028
+   ]
+  },
+  {
+   "id": "p131w013",
+   "raw": "describe-your-children.",
+   "txt": "describe-your-children.",
+   "fixes": [],
+   "box": [
+    35.894,
+    17.549,
+    32.62,
+    2.469
+   ]
+  },
+  {
+   "id": "p131w014",
+   "raw": "bellybelly.com",
+   "txt": "bellybelly.com",
+   "fixes": [],
+   "box": [
+    13.476,
+    17.549,
+    22.544,
+    2.469
+   ]
+  },
+  {
+   "id": "p131w015",
+   "raw": "15-Thebookoflife.(2020):",
+   "txt": "15-Thebookoflife.(2020):",
+   "fixes": [],
+   "box": [
+    69.018,
+    20.547,
+    17.632,
+    2.469
+   ]
+  },
+  {
+   "id": "p131w016",
+   "raw": "two",
+   "txt": "two",
+   "fixes": [],
+   "box": [
+    57.179,
+    20.723,
+    5.919,
+    1.94
+   ]
+  },
+  {
+   "id": "p131w017",
+   "raw": "reasons",
+   "txt": "reasons",
+   "fixes": [],
+   "box": [
+    26.196,
+    20.459,
+    28.086,
+    2.557
+   ]
+  },
+  {
+   "id": "p131w018",
+   "raw": "why",
+   "txt": "why",
+   "fixes": [],
+   "box": [
+    17.884,
+    20.547,
+    8.438,
+    2.116
+   ]
+  },
+  {
+   "id": "p131w019",
+   "raw": "people",
+   "txt": "people",
+   "fixes": [],
+   "box": [
+    77.708,
+    23.545,
+    8.69,
+    2.469
+   ]
+  },
+  {
+   "id": "p131w020",
+   "raw": "end",
+   "txt": "end",
+   "fixes": [],
+   "box": [
+    56.045,
+    23.633,
+    14.106,
+    2.381
+   ]
+  },
+  {
+   "id": "p131w021",
+   "raw": "up",
+   "txt": "up",
+   "fixes": [],
+   "box": [
+    44.458,
+    24.074,
+    3.904,
+    1.94
+   ]
+  },
+  {
+   "id": "p131w022",
+   "raw": "parenting",
+   "txt": "parenting",
+   "fixes": [],
+   "box": [
+    31.234,
+    23.545,
+    5.542,
+    2.028
+   ]
+  },
+  {
+   "id": "p131w023",
+   "raw": "badly.",
+   "txt": "badly.",
+   "fixes": [],
+   "box": [
+    13.602,
+    23.545,
+    9.95,
+    2.469
+   ]
+  },
+  {
+   "id": "p131w024",
+   "raw": "theschooloflife.com",
+   "txt": "theschooloflife.com",
+   "fixes": [],
+   "box": [
+    13.35,
+    26.543,
+    28.715,
+    2.116
+   ]
+  },
+  {
+   "id": "p131w025",
+   "raw": "16-Teri",
+   "txt": "16-Teri",
+   "fixes": [],
+   "box": [
+    73.174,
+    29.63,
+    13.35,
+    2.116
+   ]
+  },
+  {
+   "id": "p131w026",
+   "raw": "Cettina.(2021):",
+   "txt": "Cettina.(2021):",
+   "fixes": [],
+   "box": [
+    54.03,
+    29.718,
+    18.514,
+    2.028
+   ]
+  },
+  {
+   "id": "p131w027",
+   "raw": "how",
+   "txt": "how",
+   "fixes": [],
+   "box": [
+    41.94,
+    29.541,
+    9.32,
+    2.557
+   ]
+  },
+  {
+   "id": "p131w028",
+   "raw": "win",
+   "txt": "win",
+   "fixes": [],
+   "box": [
+    36.272,
+    29.541,
+    5.793,
+    2.557
+   ]
+  },
+  {
+   "id": "p131w029",
+   "raw": "over",
+   "txt": "over",
+   "fixes": [],
+   "box": [
+    29.219,
+    29.63,
+    7.179,
+    2.116
+   ]
+  },
+  {
+   "id": "p131w030",
+   "raw": "stubborn",
+   "txt": "stubborn",
+   "fixes": [],
+   "box": [
+    17.884,
+    29.63,
+    10.579,
+    2.116
+   ]
+  },
+  {
+   "id": "p131w031",
+   "raw": "children.",
+   "txt": "children.",
+   "fixes": [],
+   "box": [
+    33.375,
+    32.716,
+    14.484,
+    2.381
+   ]
+  },
+  {
+   "id": "p131w032",
+   "raw": "parenting.com",
+   "txt": "parenting.com",
+   "fixes": [],
+   "box": [
+    13.476,
+    32.628,
+    20.025,
+    2.469
+   ]
+  }
+ ],
+ "box_fit": {
+  "fitted": 33,
+  "total": 33
+ },
+ "tashkeel_engine": "arabic-diacritizer"
+}

@@ -1,0 +1,22 @@
+{
+ "book": "العند ",
+ "source_pdf": "العند .pdf",
+ "pdf_sha256_16": "3104050e2ea7e06d",
+ "page": 106,
+ "source": "ocr",
+ "ocr_engine": "gemini-3.6-flash",
+ "box_level": "line",
+ "render_size": [
+  794,
+  1134
+ ],
+ "diac_ratio": 0.0,
+ "path": "diacritise",
+ "status": "diacritised",
+ "tokens": [],
+ "box_fit": {
+  "fitted": 0,
+  "total": 0
+ },
+ "tashkeel_engine": "arabic-diacritizer"
+}

@@ -1,0 +1,48 @@
+{
+ "who": {
+  "boy": "عاصم، شادي، عمر ومهند",
+  "boy2": "ياسر، هادي، بشير",
+  "mother": "كل الأمهات",
+  "teacher": "معلمة الصف",
+  "girl": "نانسي",
+  "little_girl": "روبي",
+  "man": "السيد مينا",
+  "man2": "السيد حاتم",
+  "man3": "صاحب المتجر"
+ },
+ "roles": {
+  "narrator": {"voice": "Puck", "style": "You are a professional male storyteller reading a children's story in Arabic. Be warm, lively and captivating, with expressive pacing, so children are eager to hear what happens next. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"},
+  "mother": {"voice": "Sulafat", "style": "You are a warm, loving Arab mother talking to her child in a children's story. Sound gentle and caring. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"},
+  "teacher": {"voice": "Vindemiatrix", "style": "You are a kind school teacher talking to two pupils in a children's story. Sound friendly and clear. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"},
+  "boy": {"voice": "Zephyr", "style": "You are playing a nine-year-old Arab boy in a children's story. Use a high, light, childlike voice, full of energy and feeling. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"},
+  "boy2": {"voice": "Leda", "style": "You are playing a ten-year-old Arab boy in a children's story. Use a youthful, childlike voice with natural feeling. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"},
+  "girl": {"voice": "Autonoe", "style": "You are playing a kind thirteen-year-old Arab girl in a children's story, the big sister. Sound bright and friendly. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"},
+  "little_girl": {"voice": "Laomedeia", "style": "You are playing a cheerful six-year-old Arab girl in a children's story. Use a small, high, excited childlike voice. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"},
+  "man": {"voice": "Charon", "style": "You are playing a kind, generous, wealthy older gentleman in a children's story. Sound warm and grateful. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"},
+  "man2": {"voice": "Alnilam", "style": "You are playing a firm but fair male teacher in a children's story. Sound clear and serious. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"},
+  "man3": {"voice": "Algenib", "style": "You are playing a friendly shopkeeper in a children's story. Sound thoughtful and honest. Pronounce the diacritics exactly as written. Speak only the text after the word Text, word for word, and do not speak these instructions.\n\nText:\n"}
+ },
+ "lines": {
+  "4": [[25, 36, "teacher"]],
+  "5": [[5, 20, "boy"]],
+  "6": [[8, 18, "boy2"]],
+  "7": [[28, 37, "mother"]],
+  "8": [[2, 22, "mother"]],
+  "9": [[8, 21, "boy"], [29, 38, "boy"]],
+  "10": [[10, 27, "mother"]],
+  "11": [[15, 29, "man"]],
+  "12": [[11, 32, "man"]],
+  "13": [[6, 12, "mother"]],
+  "15": [[12, 31, "man2"]],
+  "16": [[15, 21, "man2"]],
+  "17": [[4, 20, "boy2"]],
+  "18": [[7, 25, "boy2"]],
+  "20": [[14, 23, "boy"]],
+  "21": [[10, 20, "mother"], [23, 30, "boy"]],
+  "22": [[13, 20, "boy2"], [22, 25, "mother"]],
+  "23": [[3, 20, "mother"]],
+  "24": [[12, 19, "girl"]],
+  "25": [[6, 14, "little_girl"], [22, 28, "little_girl"]],
+  "26": [[3, 14, "man3"]]
+ }
+}

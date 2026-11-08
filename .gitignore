@@ -1,0 +1,10 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
