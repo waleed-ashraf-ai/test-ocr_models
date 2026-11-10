@@ -1,0 +1,10 @@
+The image contains the following text:
+
+*   **جلد الديناصورات** (top center)
+*   كانَ جلدُ الديناصورات يَترُكُ في بعضِ الأحيانِ أثراً في الطين. يَجِفُ هذا الطينُ ويتصلّبُ وبالتّالي يَحفَظُ شكل الجلد. (below the title)
+*   نَعرِفُ من هذهِ الحفرياتِ أَنَّ بعضَ الديناصوراتِ كانَ له جلدٌ حرشفيٌّ يُشبِهُ جلدَ السَّحالي. (below the previous text)
+*   **ترايسيراتوبس** (bottom right)
+*   (ديناصورٌ ثلاثيُّ القرون) (below "ترايسيراتوبس")
+*   **لـنهضة للنشر** (diagonally across the center of the image, partially transparent)
+
+These are all the texts present in the given image.

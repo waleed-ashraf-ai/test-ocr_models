@@ -1,0 +1,1 @@
+[ERROR] You have exceeded your free ZeroGPU quota (90s requested vs. 74s left). Try again in 23:55:18. Subscribe to Hugging Face PRO to get 40 min of ZeroGPU quota a day - https://huggingface.co/subscribe/pro?from=ZeroGPU

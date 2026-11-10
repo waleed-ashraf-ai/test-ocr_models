@@ -6,22 +6,35 @@ transcript.
 
 Spec, plan and open tasks: [`specs/035-hf-ocr-model-comparison/`](specs/035-hf-ocr-model-comparison/).
 
-## Results so far (pages 4–5 of «وظيفة يوم العطلة», 2026-11-08)
+## Results so far (2026-11-10)
 
-| # | Model | Reads correctly (chars) | Pages |
-|---|---|---|---|
-| 1 | Gemini-Pro | 99.7% | 4, 5 |
-| 2 | RolmOCR-7B | 99.5% | 4, 5 |
-| 3 | Nanonets-OCR2-3B | 99.1% | 4 only |
-| 4 | olmOCR-7B-0725 | 97.8% | 4, 5 |
-| 5 | Unlimited-OCR-2 | 97.0% | 4, 5 (local, CPU, ~15 min/page) |
-| 6 | Qwen2-VL-OCR-2B | 89.6% | 4 only |
-| 7 | Gemini-3.8-Flash | 35.2% | 4, 5 (added a translation and image description around the text) |
-| 8 | Aya-Vision-8B | 20.4% | 4 only (made up text) |
-| — | MiniCPM-OCR-1.0 | did not run | ZeroGPU quota |
-| — | Qwen3.8-27B | did not run | needs HF credits |
+7 pages from 3 children's books: «الديناصورات» (file pages 5, 8, 11) and «المومياوات» (file pages 5, 14), both National Geographic,
+and «وظيفة يوم العطلة» (pages 4–5). Each model was asked to copy the text **with tashkeel exactly as printed** (`--tashkeel`).
+Dashboard for management: `results.html`, published at https://claude.ai/artifact/XaaaUcVFkkaXF7mNKR8sca
 
-Open `results.html` in a browser for the full report with per-page tables.
+Overall = average of word accuracy and tashkeel accuracy. Tashkeel must match the book: a missing, wrong or **added** mark
+(the model guessing tashkeel the book does not print) counts as an error. † = some pages fell back to the regular-prompt run
+because credit or quota ran out before the tashkeel run.
+
+| # | Model | Overall | Words | Tashkeel | Pages |
+|---|---|---|---|---|---|
+| 1 | Gemini-3.8-Flash | 94.8% | 100.0% | 89.6% | 7/7 |
+| 2 | Kimi-K3 † | 92.8% | 98.4% | 87.2% | 2/7 |
+| 3 | Gemini-Pro | 87.6% | 99.9% | 75.3% | 7/7 |
+| 4 | Qwen2.5-VL-72B | 79.0% | 95.7% | 62.2% | 5/7 |
+| 5 | Llama-4-Maverick | 78.4% | 95.4% | 61.5% | 4/7 |
+| 6 | GPT-6.1-Sol † | 76.8% | 98.0% | 55.6% | 2/7 |
+| 7 | DeepSeek-V4-Flash-Vision † | 76.4% | 98.6% | 54.2% | 3/7 |
+| 8 | Unlimited-OCR-2 † | 69.8% | 96.7% | 43.0% | 4/7 |
+| 9 | Qwen3-VL-235B | 67.2% | 81.9% | 52.5% | 5/7 |
+| 10 | GPT-4.1 † | 56.3% | 98.3% | 14.3% | 3/7 |
+
+- Recommendation: **Gemini-3.8-Flash** — best overall on all 7 pages, never invented words, ≈ $461 per 1000 books (30 pages each), ≈ half with Batch.
+- Gemini-Pro reads perfectly but adds tashkeel the book does not print, so it loses on tashkeel; it also costs ≈ 3.6× more (thinking tokens).
+- Kimi-K3 ran on 2 pages only and invented words in a heading («عظام مفترسة وعظام ضخمة!»).
+- RolmOCR, olmOCR, Nanonets, MiniCPM read letters very well but drop almost all tashkeel.
+- Missing runs: OpenRouter credit at $0, free ZeroGPU quota exhausted, Qwen3.8-27B needs HF credits, free Gemma rate-limited.
+- Claude models were run but are left out of the dashboard and this table on request.
 
 ## How to run
 
@@ -35,8 +48,12 @@ python ocr_compare.py pages/page_4.png
 python ocr_compare.py pages/page_5.png --models Gemini-Pro RolmOCR-7B --max-tokens 4096
 python ocr_compare.py pages/page_5.png --send-token-to-spaces   # more ZeroGPU quota, see Security
 
-# 2. score every saved output
+# 2. score every saved output (letters, words, tashkeel, added tashkeel, full)
 python score_ocr.py
+python score_ocr.py --dir results_tashkeel --csv scores.csv
+
+# 3. same run, asking the models to keep tashkeel exactly as printed (saves to results_tashkeel/)
+python ocr_compare.py pages/dino_5.jpg --tashkeel
 ```
 
 Unlimited-OCR-2 can also run locally (6.7 GB of weights; GPU with ≥ 10 GB, else CPU in bf16 with ~7 GB RAM):
